@@ -32,13 +32,13 @@ pip install streamlit: Framework for interactive web app in Python
 5. Web Scraping with Selenium
 4.1. Setting up the web driver
 driver = webdriver.Chrome() 
-# Note: For Chrome Broser no need to install the web driver seperately by default brower having the web driver
+# Note: For Chrome Browser installed the chromium webdriver 
 4.2. Open the RedBus link
 driver.get(YOUR_URL)
 5. Application Usage
 5.1. Running the Scraper
 1. Run the Streamlit: Execute the Streamlit to start the scraping process.
-   Streamlit run main.py
+   Streamlit run stream.py
 5.2. Verifying Data Storage
 1. Open MySQL Workbench
 2. Check the database:
